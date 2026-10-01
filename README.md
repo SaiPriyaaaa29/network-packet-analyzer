@@ -322,6 +322,21 @@ captures 50 TCP packets.
 
 | `https` | Capture TCP traffic on port 443 |
 
+## Screenshots
+
+### DNS Packet Analysis
+
+The analyzer captures and displays detailed DNS packet information including source and destination addresses, ports, DNS queries, responses, and resolved IPv4 addresses.
+
+![DNS Packet Analysis](dns-analysis.png)
+
+### Traffic Capture Summary
+
+The analyzer provides protocol-level packet counts, traffic percentages, and byte-level statistics after packet capture.
+
+![Capture Summary](capture-summary.png)
+
+
 
 
 \## Example Output
