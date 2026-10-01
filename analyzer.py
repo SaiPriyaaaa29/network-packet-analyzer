@@ -13,6 +13,36 @@ print("-----------------------")
 
 
 # ==================================================
+# COMMAND-LINE HELP
+# ==================================================
+
+if len(sys.argv) > 1 and sys.argv[1].lower() in ["--help", "-h"]:
+
+    print("Network Packet Analyzer")
+    print("-----------------------")
+    print()
+    print("Usage:")
+    print("    python analyzer.py [filter] [packet_count]")
+    print()
+    print("Filters:")
+    print("    all      Capture all supported traffic")
+    print("    tcp      Capture TCP traffic")
+    print("    udp      Capture UDP traffic")
+    print("    icmp     Capture ICMP traffic")
+    print("    dns      Capture DNS traffic")
+    print("    https    Capture TCP port 443 traffic")
+    print()
+    print("Examples:")
+    print("    python analyzer.py")
+    print("    python analyzer.py dns")
+    print("    python analyzer.py dns 20")
+    print("    python analyzer.py tcp 50")
+    print("    python analyzer.py https 30")
+
+    sys.exit()
+
+
+# ==================================================
 # GET FILTER FROM COMMAND LINE
 # ==================================================
 
