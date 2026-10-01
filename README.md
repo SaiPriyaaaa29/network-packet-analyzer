@@ -160,8 +160,7 @@ Npcap is required for packet capture on Windows.
 
 ```bash
 
-git clone <your-repository-url>
-
+git clone https://github.com/SaiPriyaaaa29/network-packet-analyzer.git
 ```
 
 
@@ -513,7 +512,6 @@ Possible future enhancements include:
 
 
 
-\* Command-line `--help` support
 
 \* Protocol distribution visualization
 
